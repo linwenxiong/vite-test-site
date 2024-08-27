@@ -1,0 +1,29 @@
+{
+  "name": "lin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "xxx"
+  },
+  "scripts": {
+    "dev": "node ./dev.js --name=lin --age=18",
+    "test": "cross-env WEBMODE=deploy node ./dev.js ",
+    "vite": "cross-env WEBMODE=deploy vite",
+    "build:test": "vite --mode=test build",
+    "build": "vite build"
+  },
+  "config": {
+    "name": "8080"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "vite": "^5.4.2"
+  }
+}
