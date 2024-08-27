@@ -8,7 +8,7 @@
     "url": "xxx"
   },
   "scripts": {
-    "dev": "node ./dev.js --name=lin --age=18",
+    "dev": "node ./dev.js --name=lin --age=19",
     "test": "cross-env WEBMODE=deploy node ./dev.js ",
     "vite": "cross-env WEBMODE=deploy vite",
     "build:test": "vite --mode=test build",
